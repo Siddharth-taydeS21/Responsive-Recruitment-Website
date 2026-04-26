@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
 @import "tailwindcss";
 
 @theme{
@@ -13,6 +14,10 @@
     --color-green-color-dark-alt: #2b7970;
     --color-purple-color: #dcccfe;
 
+
+    /* ================== FONT FAMILY =================== */
+    --font-body-font: "Poppins", sans-serif;
+
     /* ================== BREAKPIONT =================== */
 
 }
@@ -26,6 +31,10 @@
         @apply scroll-smooth;
     }
 
+    body{
+        @apply font-body-font;
+    }
+
     h1,
     h2,
     h3,
@@ -34,11 +43,11 @@
     }
 
     section {
-        @apply w-full px-8 pt-24 pb-20;
+        @apply w-full pt-24 pb-20;
     }
 
     header {
-        @apply w-full px-8 h-14 lg:h-22;
+        @apply w-full px-5 lg:px-8 h-14 lg:h-22;
     }
 
     ul {
@@ -58,10 +67,20 @@
 @layer utilities {
     /* ================ SMALL REUSABLE CLASSES ================== */
     .container {
-        @apply mx-auto max-w-7xl;
+        @apply mx-auto p-4 max-w-7xl;
     }
 
     .button{
-        @apply bg-green-color-dark p-[.5rem_2rem] rounded-[10rem] text-white font-normal;
+        @apply bg-green-color-dark p-[.5rem_2rem] rounded-[10rem] text-body-color! text-sm transition-colors duration-400 hover:bg-green-color-dark-alt;
+    }
+
+    /* ================ NAV BAR REUSABLE CLASSES ================== */
+
+    .nav_link{
+        @apply text-text-color font-semibold transition-colors duration-400 hover:text-text-color-light;
+    }
+
+    .home_form input::placeholder {
+        @apply text-sm text-text-color-light;
     }
 }

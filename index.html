@@ -21,9 +21,95 @@
 </head>
 
 <body>
-   
+    <!-- =========================== HEADER ========================== -->
+    <header class="fixed h-18 top-0 left-0 z-2 bg-container-color">
+        <nav class="nav w-full h-full max-w-7xl px-4 mx-auto flex justify-between items-center" id="nav">
+            <a href="#homw" class="logo text-xl font-bold italic"><i class="ri-at-fill"></i>Uploop</a>
+
+            <div
+                class="nav_menu max-lg:absolute max-lg:w-[310px] max-lg:h-screen max-lg:top-0 max-lg:right-[-120%] max-lg:p-4 bg-container-color max-lg:shadow-lg transition-[right] duration-300">
+                <ul class="nav_list flex flex-col gap-y-8 max-lg:my-6 lg:flex-row lg:gap-x-6 xl:gap-x-12">
+                    <li>
+                        <a href="#home" class="nav_link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav_link">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#platform" class="nav_link">Platform</a>
+                    </li>
+
+                    <li>
+                        <a href="#hire" class="nav_link">Hire From Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#reviews" class="nav_link">Success Stories</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav_link">Login</a>
+                    </li>
+                    
+                    <hr class="h-px text-text-color-light lg:hidden">
+
+                    <li>
+                        <a href="#" class="nav_link button">Hire Developers</a>
+                    </li>
+                </ul>
+
+                <!-- CLOSE BUTTON -->
+                <div class="nav_close absolute top-6 right-6 lg:hidden">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <!-- TOGGLE BUTTON -->
+            <div class="nav_toggle  text-xl font-bold lg:hidden">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =========================== MAIN ========================== -->
+    <main>
+        <!-- =========================== HOME SECTION ========================== -->
+        <section id="home" class="home bg-container-color">
+            <div class="container grid justify-center gap-y-16 sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-2 lg:gap-x-12">
+                <div class="home_data flex flex-col gap-y-6 lg:justify-center lg:gap-y-12">
+                    <h1 class="home_title text-4xl to-text-color font-semibold lg:text-7xl">Recruit the Top <br> 1% of Engineers, <br> Quickly</h1>
+                    <p class="home_discription text-sm font-semibold text-text-color lg:text-lg">Save time, reduce costs, and innovate faster with a global network of 4,000 vetted, world-class engineers ready to ship code.</p>
+                    <form action="" class="home_form w-full flex gap-x-2">
+                        <input type="email" class="home_input bg-body-color w-full rounded-[10rem] border border-gray-100 p-[.5rem_1rem] lg:text:lg" placeholder="Work email">
+                        <button type="submit" class="button text-nowrap lg:text-lg">Let's Connect</button>
+                    </form>
+                </div>
+
+                <div class="home_image rounded-4xl overflow-hidden relative shadow-2xl lg:h-[650px]">
+                    <img src="./assets/Images/home.imge.avif" alt="image" class="home_img z-0">
+                    <div class="home_card absolute z-10 bottom-6 left-4 sm:left-6 bg-body-color w-[280px] sm:w-[350px] p-4 rounded-2xl grid gap-y-2 text-sm overflow-hidden">
+                        <h2 class="expert_name font-semibold">Alex D.</h2> 
+                        <p class="expert_role text-text-color-light mb-2">Full-stack Developer</p>
+                        <p class="expert_discription flex gap-x-2 items-center bg-gray-100 rounded-xl p-2">
+                            <i class="ri-checkbox-line text-3xl text-blue-200"></i>
+                            <span>Full Stack Dev with a knack for translating stakeholder needs</span>
+                        </p>
+                        <p class="expert_discription flex gap-x-2 items-center bg-gray-100 rounded-xl p-2">
+                            <i class="ri-checkbox-line  text-3xl text-blue-200"></i>
+                            <span>Would rather be divin</span>
+                        </p>
+                        <p class="expert_badge absolute top-0 right-0 p-2 bg-purple-color font-semibold rounded-bl-2xl">Open to work</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
     <!--=============== SWIPER JS ===============-->
-    <script src="./assets/JS/swiper-bundle.min.js"></script>
+    <script src=""></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="./assets/JS/main.js"></script>
