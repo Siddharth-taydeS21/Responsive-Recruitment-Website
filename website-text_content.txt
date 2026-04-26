@@ -1,0 +1,233 @@
+================== NAV SECTION ==================
+Nav_list
+    How it works
+    Top 1%
+    Platform
+    Success Stories
+    Blog
+    Login
+
+Nav_button
+    Hire Developers
+
+================== HOME SECTION ==================
+
+Home_container_1
+Home_title
+    Recruit the Top 1% of Engineers, Quickly
+
+Home_discription
+    Save time, reduce costs, and innovate faster with a global network of 4,000 vetted, world-class engineers ready to ship code.
+
+Home_iput
+    Work Email
+
+Home_button
+    Let's Connect
+
+
+Home_container_2
+
+Ecpert_cerd -
+
+Expert_name
+    Alex D.
+Expert_proffession
+    Full-stack Developer
+Item_1
+    Full Stack Dev with a knack for translating stakeholder needs
+Item_2
+    Would rather be divin
+
+Card_Badge
+    Open to work
+
+================== ABOUT SECTION ==================
+
+About_data
+Conatainer_title
+    "Uploop helped us quickly connect with top talent, allowing us to fill critical skill gaps and keep our projects on track."
+Conatainer_logo
+    GREE
+
+    Div :- 
+    40%
+    Cost saving when hiring with Uploop
+
+    >3
+    Average interviews to hire
+
+    1 Week
+    Average time to hire
+
+    $80,000
+    Cost savings across HR, Compliance, and Legal
+
+About_content
+Conatainer_title
+    Tech hiring made simple.
+    Div <photos div> div
+
+div
+    Find the specialized engineering skills you need. Onboard easily. Speed up your time-to-market.
+    Whether bridging skills gaps or scaling for ambitious projects, we provide personalized strategies that deliver. Hire from a pool of over 4000 pre-vetted world-class engineers, cut costs, and find talent that sticks. From hiring to managing distributed teams, we're here to make building your dream team seamless and impactful
+
+Button_
+    Ready to get started?
+
+
+================== PLATFORM SECTION ==================
+
+Conatainer_title
+Personalized <br> hands on hiring <br> solutions 
+Cards : 
+
+Cards_title
+Custom Talent Strategies That Fit Your Goals
+
+Cards_content
+Start your hiring journey with a HirePath™ strategy session. Our experts work with you to understand your needs, culture, and project demands. Together, we'll craft a personalized hiring plan to ensure alignment and success from day one.
+
+Cards_title
+The All-in-One Platform for Seamless Hiring
+
+Cards_content
+Meet the UpStack Platform-your central hub for managing top-tier talent. From vetting and onboarding to payments and compliance, our platform handles it all. Effortlessly match with pre-vetted engineers ready to deliver results for your team.
+
+Cards_title
+Ready to Build Smarter Teams?
+Cards_content
+Transform your hiring approach with UpStack. Schedule a HirePath" strategy session today and see how our tailored solutions can optimize your process and unlock new potential for your business.
+
+Cards_button
+Get started
+
+Cards_title
+Elite Talent, Vetted for Excellence
+
+Cards_content
+Tap into our global network of 4,000+ senior-level engineers. Rigorously assessed for technical expertise, communication, and cultural fit, our developers specialize in modern frameworks and are ready to tackle your toughest challenges
+
+Cards_title
+Stress-Free HR, Payments, and Compliance
+
+Cards_content
+Say goodbye to administrative headaches. From global payments to compliance, we take care of the details so you can focus on growing your team. Clients save up to $80,000 annually with our streamlined solutions
+
+Cards_title
+Hire, Onboard, and Manage with Confidence
+
+Cards_content
+Simplify remote team building with our proven processes. We've helped hundreds of businesses hire, onboard, and integrate global talent smoothly. Let us help you scale with ease while keeping your team dynamics strong.
+
+
+================== REVIEWS SECTION ==================
+Section_title
+Costumer love stories
+
+Reviews_contet
+"We wish we knew about UpLoop at the beginning of our recruiting process. We spent months looking for the right talent. Once we came across Upstack, we had solid leads within a week and finalized our first hire shortly after that."
+
+Reviews_name
+Alex D.
+
+Reviews_profession
+Full-stack Developer
+
+button
+Previous     Next
+
+
+================== FAQ SECTION ==================
+Section_title
+Frequently Asked Questions
+
+Faq grid :
+
+    How much does it cost to hire a remote developer, and what is the cost structure?
+    Each hire you work with has a standard hourly rate averaging between $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with clients to ensure you can determine a salary structure that works for each hire.
+
+    How does UpStack determine the "Top 1% of talent"?
+
+    What specific technologies or frameworks do your developers specialize in?
+
+    How long does it take to hire a remote developer?
+
+    Can I scale my team with UpStack?
+
+    Do I have to manage the remote developers directly?
+
+    What happens if I'm not satisfied with a developer?
+
+    Are the developers full-time or part-time?
+
+================== SECTION ==================
+Section_title
+Trusted talent, faster results
+Hire with ease
+
+
+    Human-Centered Hiring
+
+    Save Money, Hire Smarter
+
+    Talent That Sticks
+
+    Specialized Skills, Delivered
+
+    Agility That Scales
+
+================== CTA SECTION ==================
+Cta_title
+Ready to Build Smarter Teams?
+
+Cta_subtitle
+Transform your hiring approach with UpStack. Schedule a HirePath" strategy session today and see how our tailored solutions can optimize your process and unlock new potential for your business.
+
+Cta_button
+Get Started
+
+
+================== FOOTER SECTION ==================
+
+Sign up for our newsletter
+Work Email
+Let's Connect
+
+
+Employers
+
+How it works
+Success stories
+Sign up
+FAQ
+Login
+Rewards
+Blog
+Uploop
+©2025. All Rights Reserved
+About
+
+
+Job Seekers
+
+Join the team
+Sign up
+FAQ
+Login
+Rewards
+
+
+Hire Developers
+
+Toptal alternatives
+Hire developers
+Hire front-end developers
+Hire full-stack developers
+Hire java developers
+Hire node.js developers
+Hire phyton developers
+Hire react.js developers
+Our developers
+
+

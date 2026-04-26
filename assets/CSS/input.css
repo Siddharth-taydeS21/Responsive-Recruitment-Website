@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme{
+
+    /* ================== COLOR VARIABLES =================== */
+    --color-body-color:  white;
+    --color-container-color: #fbf8f4;
+    --color-text-color: #000000;
+    --color-text-color-light: #737373;
+    --color-yellow-color: #f7ff9a;
+    --color-green-color-light: #7afcd0;
+    --color-green-color-dark: #1e3f3a;
+    --color-green-color-dark-alt: #2b7970;
+    --color-purple-color: #dcccfe;
+
+    /* ================== BREAKPIONT =================== */
+
+}
+
+@layer base{
+    * {
+        @apply box-border p-0 m-0;
+    }
+
+    html {
+        @apply scroll-smooth;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        @apply text-text-color;
+    }
+
+    section {
+        @apply w-full px-8 pt-24 pb-20;
+    }
+
+    header {
+        @apply w-full px-8 h-14 lg:h-22;
+    }
+
+    ul {
+        @apply list-none;
+    }
+
+    a {
+        @apply no-underline;
+    }
+
+    img {
+        @apply block max-w-full h-auto;
+    }
+
+}
+
+@layer utilities {
+    /* ================ SMALL REUSABLE CLASSES ================== */
+    .container {
+        @apply mx-auto max-w-7xl;
+    }
+
+    .button{
+        @apply bg-green-color-dark p-[.5rem_2rem] rounded-[10rem] text-white font-normal;
+    }
+}
