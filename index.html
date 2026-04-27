@@ -22,8 +22,8 @@
 
 <body>
     <!-- =========================== HEADER ========================== -->
-    <header class="fixed h-18 top-0 left-0 z-2 bg-container-color">
-        <nav class="nav w-full h-full max-w-7xl px-4 mx-auto flex justify-between items-center" id="nav">
+    <header class="fixed h-18 top-0 left-0 z-11 bg-container-color">
+        <nav class="nav w-full h-full max-w-7xl mx-auto flex justify-between items-center" id="nav">
             <a href="#homw" class="logo text-xl font-bold italic"><i class="ri-at-fill"></i>Uploop</a>
 
             <div
@@ -52,7 +52,7 @@
                     <li>
                         <a href="#" class="nav_link">Login</a>
                     </li>
-                    
+
                     <hr class="h-px text-text-color-light lg:hidden">
 
                     <li>
@@ -77,20 +77,27 @@
     <main>
         <!-- =========================== HOME SECTION ========================== -->
         <section id="home" class="home bg-container-color">
-            <div class="container grid justify-center gap-y-16 sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-2 lg:gap-x-12">
+            <div
+                class="container grid justify-center gap-y-16 sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-2 lg:gap-x-12">
                 <div class="home_data flex flex-col gap-y-6 lg:justify-center lg:gap-y-12">
-                    <h1 class="home_title text-4xl to-text-color font-semibold lg:text-7xl">Recruit the Top <br> 1% of Engineers, <br> Quickly</h1>
-                    <p class="home_discription text-sm font-semibold text-text-color lg:text-lg">Save time, reduce costs, and innovate faster with a global network of 4,000 vetted, world-class engineers ready to ship code.</p>
+                    <h1 class="home_title text-4xl to-text-color lg:text-6xl font-semibold xl:text-7xl">Recruit the Top <br> 1% of
+                        Engineers, <br> Quickly</h1>
+                    <p class="home_discription text-sm font-semibold text-text-color lg:text-lg">Save time, reduce
+                        costs, and innovate faster with a global network of 4,000 vetted, world-class engineers ready to
+                        ship code.</p>
                     <form action="" class="home_form w-full flex gap-x-2">
-                        <input type="email" class="home_input bg-body-color w-full rounded-[10rem] border border-gray-100 p-[.5rem_1rem] lg:text:lg" placeholder="Work email">
+                        <input type="email"
+                            class="home_input bg-body-color w-full rounded-[10rem] border border-gray-100 p-[.5rem_1rem] lg:text:lg"
+                            placeholder="Work email">
                         <button type="submit" class="button text-nowrap lg:text-lg">Let's Connect</button>
                     </form>
                 </div>
 
                 <div class="home_image rounded-4xl overflow-hidden relative shadow-2xl lg:h-[650px]">
                     <img src="./assets/Images/home.imge.avif" alt="image" class="home_img z-0">
-                    <div class="home_card absolute z-10 bottom-6 left-4 sm:left-6 bg-body-color w-[280px] sm:w-[350px] p-4 rounded-2xl grid gap-y-2 text-sm overflow-hidden">
-                        <h2 class="expert_name font-semibold">Alex D.</h2> 
+                    <div
+                        class="home_card absolute z-10 bottom-6 left-4 sm:left-6 bg-body-color w-[280px] sm:w-[350px] p-4 rounded-2xl grid gap-y-2 text-sm overflow-hidden">
+                        <h2 class="expert_name font-semibold">Alex D.</h2>
                         <p class="expert_role text-text-color-light mb-2">Full-stack Developer</p>
                         <p class="expert_discription flex gap-x-2 items-center bg-gray-100 rounded-xl p-2">
                             <i class="ri-checkbox-line text-3xl text-blue-200"></i>
@@ -100,7 +107,93 @@
                             <i class="ri-checkbox-line  text-3xl text-blue-200"></i>
                             <span>Would rather be divin</span>
                         </p>
-                        <p class="expert_badge absolute top-0 right-0 p-2 bg-purple-color font-semibold rounded-bl-2xl">Open to work</p>
+                        <p class="expert_badge absolute top-0 right-0 p-2 bg-purple-color font-semibold rounded-bl-2xl">
+                            Open to work</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== ABOUT SECTION ========================== -->
+        <section id="about" class="about bg-container-color">
+            <div class="about_container container grid gap-y-24 justify-center sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-1">
+
+                <div class="about_content_grid grid gap-y-14">
+
+                    <div class="grid gap-y-7">
+                        <div class="about_profiles w-full h-[70px] relative top-0 right-0 flex justify-center items-center">
+                            <article class="about_profile">
+                                <img src="./assets/Images/about_person_image_2.avif" alt="image">
+                            </article>
+                            
+                            <article class="about_profile">
+                                <img src="./assets/Images/about_person_img.avif" alt="image">
+                            </article>
+
+                            <article class="about_profile">
+                                <img src="./assets/Images/about_person_img_3.avif" alt="image">
+                            </article>
+                        </div>
+
+                        <div class="about_sub_heading flex justify-center">
+                            <h1 class="text-center text-2xl md:text-3xl lg:text-4xl lg:w-8/10">"Uploop helped us <strong>quickly connect</strong> with top talent, allowing us to <strong>fill critical skill
+                                gaps</strong> and keep our <strong>projects on track.</strong>"</h1>
+                        </div>
+
+                        <div class="about_logo w-full flex justify-center">
+                            <a href="#homw" class="text-lg font-bold italic"><i class="ri-at-fill"></i>Uploop</a>
+                        </div>
+                    </div>
+                    
+                    <div class="stats_cards_grid grid gap-6 justify-center md:grid-cols-[repeat(2,230px)] lg:grid-cols-[repeat(4,230px)]">
+                        <article class="stats_card bg-green-color-light">
+                            <h1 class="stats_title">40%</h1>
+                            <span class="stats_subtitle">Cost saving when hiring with Uploop</span>
+                        </article>
+
+                        <article class="stats_card bg-pink-color">
+                            <h1 class="stats_title">1 Week</h1>
+                            <span class="stats_subtitle">Average time to hire</span>
+                        </article>
+                    
+                        <article class="stats_card bg-purple-color">
+                            <h1 class="stats_title">>3</h1>
+                            <span class="stats_subtitle">Average interviews to hire</span>
+                        </article>
+
+                        <article class="stats_card bg-yellow-color">
+                            <h1 class="stats_title">$80,000</h1>
+                            <span class="stats_subtitle">Cost savings across HR, Compliance, and Legal</span>
+                        </article>
+                    </div>
+
+                </div>
+
+
+                <div class="about_img_grid grid gap-y-12">
+                    <div class="container_heading">
+                        <h1 class="text-4xl font-semibold lg:text-5xl mb-8 text-center">Tech hiring <br> made simple.</h1>
+                    </div>
+ 
+                    <div class="container_content grid gap-y-10 md:gap-y-14 lg:grid-cols-[3fr_2fr] lg:gap-x-18">
+
+                        <div class="img_grid grid grid-cols-[2fr_3fr] w-full gap-4 md:gap-6">
+                            <div class="w-full h-full flex items-center">
+                                <img src="./assets/Images/about_person_image_6.avif" alt="image" class="w-full h-7/10 rounded-2xl object-cover object-center">
+                            </div>
+
+                            <div class="flex flex-col gap-y-4 md:gap-6 justify-center w-full h-full">
+                                <img src="./assets/Images/about_person_image_4.avif" alt="image" class="rounded-2xl h-4/10 object-cover object-center">
+                                <img src="./assets/Images/about_person_image_5.avif" alt="image" class="rounded-2xl w-4/5 h-6/10 object-cover object-right">
+                            </div>
+                        </div>
+
+                        <div class="content_grid flex flex-col gap-y-6 lg:gap-y-10 items-center lg:justify-center lg:items-start text-center lg:text-start">
+                            <p class="font-medium">Find the specialized engineering skills you need. Onboard easily. Speed up your time-to-market.</p>
+                            <p class="font-medium">Whether bridging skills gaps or scaling for ambitious projects, we provide personalized strategies that deliver. Hire from a pool of over 4000 pre-vetted world-class engineers, cut costs, and find talent that sticks. From hiring to managing distributed teams, we're here to make building your dream team seamless and impactful.</p>
+                            <button class="button w-fit! text-center lg:text-start">Ready to get started?</button>
+                        </div>
+
                     </div>
                 </div>
             </div>

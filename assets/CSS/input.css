@@ -13,12 +13,14 @@
     --color-green-color-dark: #1e3f3a;
     --color-green-color-dark-alt: #2b7970;
     --color-purple-color: #dcccfe;
+    --color-pink-color: #ffb8d2;
 
 
     /* ================== FONT FAMILY =================== */
     --font-body-font: "Poppins", sans-serif;
 
     /* ================== BREAKPIONT =================== */
+    
 
 }
 
@@ -82,5 +84,39 @@
 
     .home_form input::placeholder {
         @apply text-sm text-text-color-light;
+    }
+
+    /* ================ ABOUT SECTION REUSABLE CLASSES ================== */
+
+    .about_profile{
+        @apply size-[50px] rounded-full overflow-hidden border border-text-color-light absolute;
+    }
+
+    .about_profile img{
+        @apply h-full w-full object-cover object-center;
+    }
+
+    .about_profile:nth-child(2){
+        @apply size-[65px]; 
+    }
+
+    .about_profile:nth-child(1){
+        @apply  right-[calc(50%+1.4rem)];
+    }
+
+    .about_profile:nth-child(3){
+        @apply  left-[calc(50%+1.4rem)];
+    }
+
+    .stats_card{
+        @apply size-[230px] rounded-3xl p-6 flex flex-col justify-between;
+    }
+
+    .stats_title{
+        @apply text-4xl font-semibold;
+    }
+
+    .stats_subtitle{
+        @apply text-sm;
     }
 }
