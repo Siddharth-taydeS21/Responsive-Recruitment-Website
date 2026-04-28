@@ -3,13 +3,13 @@ const toggleButton = document.querySelector('.nav_toggle');
 const navMenu = document.querySelector('.nav_menu')
 toggleButton.addEventListener('click', () => {
     navMenu.classList.toggle('max-lg:right-[-120%]');
-    navMenu.classList.toggle('max-lg:right-0');
+    navMenu.classList.toggle('max-lg:-right-4');
 })
 
 // ================= CLOSE MENU FOR MOBILE SCREENS =================
 const closeButton = document.querySelector('.nav_close');
 const hideMenu = () => {
-    navMenu.classList.toggle('max-lg:right-0');
+    navMenu.classList.toggle('max-lg:-right-4');
     navMenu.classList.toggle('max-lg:right-[-120%]');
 }
 closeButton.addEventListener('click', hideMenu)
@@ -77,3 +77,41 @@ window.addEventListener('scroll', () => {
         scrollUp.classList.add('bottom-[-110%]');
     }
 })
+
+
+// =============+++++++++++++++++++++++++++++ SCROLL REVEAL ANIMATIONS ++++++++++++++++++++++++++++==================== 
+
+const sr = ScrollReveal ({
+    origin: 'bottom',
+    distance: '60px',
+    duration: 2000,
+});
+
+
+sr.reveal('.nav', { origin: 'top', delay: 2000 });
+
+sr.reveal('.home_title, .home_discription, .home_form', { origin: 'top', interval: 100 });
+sr.reveal('.home_form', { delay: 500 });
+sr.reveal('.home_image', { origin: 'left', delay: 900 });
+sr.reveal('.home_card', { origin: 'right',  delay: 1400 });
+
+sr.reveal('.about_profiles', { interval: 100 });
+sr.reveal('.about_sub_heading, .about_logo', { delay: 500 });
+sr.reveal('.stats_card', { delay: 900, interval: 200 });
+
+sr.reveal('.container_heading, .content_grid, .img_grid', { interval: 100 });
+sr.reveal('.content_grid, .img_grid', { delay: 500 });
+
+sr.reveal('.section_title', { interval: 100 });
+sr.reveal('.platform_card, .platform_cta_card', { delay: 500, });
+
+
+sr.reveal('.reviews_swiper', { delay: 500 });
+
+sr.reveal('.accordian', { delay: 500, interval : 100 });
+
+sr.reveal('.featured_image', { delay: 1000 });
+
+sr.reveal('.cat_title, .cta_discription, .cta_button', { interval: 100 });
+
+sr.reveal('.footer_newsLater, .footer_list, .footer_copy', { interval: 100 });

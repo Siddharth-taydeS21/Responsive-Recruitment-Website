@@ -200,6 +200,10 @@
         @apply text-text-color-light transition-colors duration-400 hover:text-text-color cursor-pointer;
     } 
 
+    .social_link a i {
+        @apply text-2xl lg:text-3xl transition-colors duration-400 hover:text-green-color-dark-alt;
+    }
+
 }
 
 /* ================ VANILLA CSS FOR SWIPER CLASSES ================== */
