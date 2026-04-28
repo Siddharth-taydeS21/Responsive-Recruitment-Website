@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
     <!-- 
     =============== SWIPER CSS =============== -->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="./assets/CSS/output.css">
@@ -24,7 +24,7 @@
     <!-- =========================== HEADER ========================== -->
     <header class="fixed h-18 top-0 left-0 z-11 bg-container-color">
         <nav class="nav w-full h-full max-w-7xl mx-auto flex justify-between items-center" id="nav">
-            <a href="#homw" class="logo text-xl font-bold italic"><i class="ri-at-fill"></i>Uploop</a>
+            <a href="#home" class="logo text-xl font-bold italic"><i class="ri-at-fill"></i>Uploop</a>
 
             <div
                 class="nav_menu max-lg:absolute max-lg:w-[310px] max-lg:h-screen max-lg:top-0 max-lg:right-[-120%] max-lg:p-4 bg-container-color max-lg:shadow-lg transition-[right] duration-300">
@@ -39,10 +39,6 @@
 
                     <li>
                         <a href="#platform" class="nav_link">Platform</a>
-                    </li>
-
-                    <li>
-                        <a href="#hire" class="nav_link">Hire From Us</a>
                     </li>
 
                     <li>
@@ -61,13 +57,13 @@
                 </ul>
 
                 <!-- CLOSE BUTTON -->
-                <div class="nav_close absolute top-6 right-6 lg:hidden">
+                <div class="nav_close absolute top-6 right-6 cursor-pointer lg:hidden">
                     <i class="ri-close-large-line"></i>
                 </div>
             </div>
 
             <!-- TOGGLE BUTTON -->
-            <div class="nav_toggle  text-xl font-bold lg:hidden">
+            <div class="nav_toggle  text-xl font-bold cursor-pointer lg:hidden">
                 <i class="ri-menu-line"></i>
             </div>
         </nav>
@@ -80,8 +76,10 @@
             <div
                 class="container grid justify-center gap-y-16 sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-2 lg:gap-x-12">
                 <div class="home_data flex flex-col gap-y-6 lg:justify-center lg:gap-y-12">
-                    <h1 class="home_title text-4xl to-text-color lg:text-6xl font-semibold xl:text-7xl">Recruit the Top <br> 1% of
-                        Engineers, <br> Quickly</h1>
+                    <h1 class="home_title text-4xl to-text-color lg:text-6xl font-semibold xl:text-7xl">Recruit the Top
+                        <br> 1% of
+                        Engineers, <br> Quickly
+                    </h1>
                     <p class="home_discription text-sm font-semibold text-text-color lg:text-lg">Save time, reduce
                         costs, and innovate faster with a global network of 4,000 vetted, world-class engineers ready to
                         ship code.</p>
@@ -115,17 +113,19 @@
         </section>
 
         <!-- =========================== ABOUT SECTION ========================== -->
-        <section id="about" class="about bg-container-color">
-            <div class="about_container container grid gap-y-24 justify-center sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-1">
+        <section id="about" class="about bg-body-color">
+            <div
+                class="about_container container grid gap-y-24 justify-center sm:grid-cols-[400px] md:grid-cols-[500px] lg:grid-cols-1">
 
                 <div class="about_content_grid grid gap-y-14">
 
                     <div class="grid gap-y-7">
-                        <div class="about_profiles w-full h-[70px] relative top-0 right-0 flex justify-center items-center">
+                        <div
+                            class="about_profiles w-full h-[70px] relative top-0 right-0 flex justify-center items-center">
                             <article class="about_profile">
                                 <img src="./assets/Images/about_person_image_2.avif" alt="image">
                             </article>
-                            
+
                             <article class="about_profile">
                                 <img src="./assets/Images/about_person_img.avif" alt="image">
                             </article>
@@ -136,16 +136,20 @@
                         </div>
 
                         <div class="about_sub_heading flex justify-center">
-                            <h1 class="text-center text-2xl md:text-3xl lg:text-4xl lg:w-8/10">"Uploop helped us <strong>quickly connect</strong> with top talent, allowing us to <strong>fill critical skill
-                                gaps</strong> and keep our <strong>projects on track.</strong>"</h1>
+                            <h1 class="text-center text-2xl md:text-3xl lg:text-4xl lg:w-8/10">"Uploop helped us
+                                <strong>quickly connect</strong> with top talent, allowing us to <strong>fill critical
+                                    skill
+                                    gaps</strong> and keep our <strong>projects on track.</strong>"
+                            </h1>
                         </div>
 
                         <div class="about_logo w-full flex justify-center">
                             <a href="#homw" class="text-lg font-bold italic"><i class="ri-at-fill"></i>Uploop</a>
                         </div>
                     </div>
-                    
-                    <div class="stats_cards_grid grid gap-6 justify-center md:grid-cols-[repeat(2,230px)] lg:grid-cols-[repeat(4,230px)]">
+
+                    <div
+                        class="stats_cards_grid grid gap-6 justify-center md:grid-cols-[repeat(2,230px)] lg:grid-cols-[repeat(4,230px)]">
                         <article class="stats_card bg-green-color-light">
                             <h1 class="stats_title">40%</h1>
                             <span class="stats_subtitle">Cost saving when hiring with Uploop</span>
@@ -155,7 +159,7 @@
                             <h1 class="stats_title">1 Week</h1>
                             <span class="stats_subtitle">Average time to hire</span>
                         </article>
-                    
+
                         <article class="stats_card bg-purple-color">
                             <h1 class="stats_title">>3</h1>
                             <span class="stats_subtitle">Average interviews to hire</span>
@@ -172,25 +176,35 @@
 
                 <div class="about_img_grid grid gap-y-12">
                     <div class="container_heading">
-                        <h1 class="text-4xl font-semibold lg:text-5xl mb-8 text-center">Tech hiring <br> made simple.</h1>
+                        <h1 class="text-4xl font-semibold lg:text-5xl mb-8 lg:text-center">Tech hiring <br> made simple.
+                        </h1>
                     </div>
- 
+
                     <div class="container_content grid gap-y-10 md:gap-y-14 lg:grid-cols-[3fr_2fr] lg:gap-x-18">
 
                         <div class="img_grid grid grid-cols-[2fr_3fr] w-full gap-4 md:gap-6">
                             <div class="w-full h-full flex items-center">
-                                <img src="./assets/Images/about_person_image_6.avif" alt="image" class="w-full h-7/10 rounded-2xl object-cover object-center">
+                                <img src="./assets/Images/about_person_image_6.avif" alt="image"
+                                    class="w-full h-7/10 rounded-2xl object-cover object-center shadow-lg/50">
                             </div>
 
                             <div class="flex flex-col gap-y-4 md:gap-6 justify-center w-full h-full">
-                                <img src="./assets/Images/about_person_image_4.avif" alt="image" class="rounded-2xl h-4/10 object-cover object-center">
-                                <img src="./assets/Images/about_person_image_5.avif" alt="image" class="rounded-2xl w-4/5 h-6/10 object-cover object-right">
+                                <img src="./assets/Images/about_person_image_4.avif" alt="image"
+                                    class="rounded-2xl h-4/10 object-cover object-center shadow-lg/50">
+                                <img src="./assets/Images/about_person_image_5.avif" alt="image"
+                                    class="rounded-2xl w-4/5 h-6/10 object-cover object-right shadow-lg/50">
                             </div>
                         </div>
 
-                        <div class="content_grid flex flex-col gap-y-6 lg:gap-y-10 items-center lg:justify-center lg:items-start text-center lg:text-start">
-                            <p class="font-medium">Find the specialized engineering skills you need. Onboard easily. Speed up your time-to-market.</p>
-                            <p class="font-medium">Whether bridging skills gaps or scaling for ambitious projects, we provide personalized strategies that deliver. Hire from a pool of over 4000 pre-vetted world-class engineers, cut costs, and find talent that sticks. From hiring to managing distributed teams, we're here to make building your dream team seamless and impactful.</p>
+                        <div
+                            class="content_grid flex flex-col gap-y-6 lg:gap-y-10 items-center lg:justify-center lg:items-start text-center lg:text-start">
+                            <p class="font-medium">Find the specialized engineering skills you need. Onboard easily.
+                                Speed up your time-to-market.</p>
+                            <p class="font-medium">Whether bridging skills gaps or scaling for ambitious projects, we
+                                provide personalized strategies that deliver. Hire from a pool of over 4000 pre-vetted
+                                world-class engineers, cut costs, and find talent that sticks. From hiring to managing
+                                distributed teams, we're here to make building your dream team seamless and impactful.
+                            </p>
                             <button class="button w-fit! text-center lg:text-start">Ready to get started?</button>
                         </div>
 
@@ -199,10 +213,419 @@
             </div>
         </section>
 
+        <!-- =========================== PLATFORM SECTION ========================== -->
+        <section id="platform" class="platform_section bg-container-color">
+            <div
+                class="platform_container container grid gap-6 justify-center sm:grid-cols-[450px] md:grid-cols-[500px] lg:grid-cols-[2fr_1fr]">
+                <div class="data_grid1 flex flex-col gap-6">
+                    <h1 class="section_title text-4xl lg:text-5xl font-semibold mb-12">Personalized <br> hands on hiring
+                        <br> solutions
+                    </h1>
+
+                    <div class="grid gap-6 lg:grid-cols-2 mt-auto">
+                        <article class="platform_card">
+                            <i class="ri-thumb-up-line platfrom_card_badge bg-green-color-light"></i>
+                            <p class="platfrom_card_title">Custom Talent Strategies That Fit Your Goals</p>
+                            <p class="platfrom_card_discription">Start your hiring journey with a HirePath™ strategy
+                                session. Our experts work with you to understand your needs, culture, and project
+                                demands. Together, we'll craft a personalized hiring plan to ensure alignment and
+                                success from day one. </p>
+                        </article>
+
+                        <article class="platform_card">
+                            <i class="ri-thumb-up-line platfrom_card_badge bg-pink-color"></i>
+                            <p class="platfrom_card_title">The All-in-One Platform for Seamless Hiring</p>
+                            <p class="platfrom_card_discription">Meet the UpStack Platform-your central hub for managing
+                                top-tier talent. From vetting and onboarding to payments and compliance, our platform
+                                handles it all. Effortlessly match with pre-vetted engineers ready to deliver results
+                                for your team.</p>
+                        </article>
+                    </div>
+
+                    <div>
+                        <article class="platform_cta_card grid gap-y-6 bg-green-color-dark p-12 rounded-xl shadow-xl">
+                            <h2 class="text-white text-3xl lg:text-4xl">Ready to Build Smarter Teams?</h2>
+                            <p class="card_discription text-white mb-16">Transform your hiring approach with UpStack.
+                                Schedule a HirePath" strategy session today and see how our tailored solutions can
+                                optimize your process and unlock new potential for your business.
+                            </p>
+                            <button
+                                class="card_button p-[.5rem_2rem] rounded-[10rem] bg-green-color-light text-text-color!">Get
+                                started</button>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="data_grid2 grid gap-6">
+                    <article class="platform_card">
+                        <i class="ri-thumb-up-line platfrom_card_badge bg-green-color-light"></i>
+                        <p class="platfrom_card_title">Elite Talent, Vetted for Excellence</p>
+                        <p class="platfrom_card_discription">Tap into our global network of 4,000+ senior-level
+                            engineers. Rigorously assessed for technical expertise, communication, and cultural fit, our
+                            developers specialize in modern frameworks and are ready to tackle your toughest challenges
+                        </p>
+                    </article>
+
+                    <article class="platform_card">
+                        <i class="ri-thumb-up-line platfrom_card_badge bg-pink-color"></i>
+                        <p class="platfrom_card_title">Stress-Free HR, Payments, and Compliance</p>
+                        <p class="platfrom_card_discription">Say goodbye to administrative headaches. From global
+                            payments to compliance, we take care of the details so you can focus on growing your team.
+                            Clients save up to $80,000 annually with our streamlined solutions
+                        </p>
+                    </article>
+
+                    <article class="platform_card">
+                        <i class="ri-thumb-up-line platfrom_card_badge bg-yellow-color"></i>
+                        <p class="platfrom_card_title">Hire, Onboard, and Manage with Confidence</p>
+                        <p class="platfrom_card_discription">Simplify remote team building with our proven processes.
+                            We've helped hundreds of businesses hire, onboard, and integrate global talent smoothly. Let
+                            us help you scale with ease while keeping your team dynamics strong.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== REVIEWS SECTION ========================== -->
+        <section id="reviews" class="reviews_section bg-container-color">
+            <div class="reviews_container container grid gap-y-15">
+                <h1 class="section_title text-4xl lg:text-5xl font-semibold text-center">Costumer love stories</h1>
+
+                <div class="reviews_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="reviews_card swiper-slide">
+                            <div class="reviews_data">
+                                <p class="review_text">"We wish we knew about UpLoop at the beginning of our recruiting
+                                    process. We spent months looking for the right talent. Once we came across Upstack,
+                                    we had solid leads within a week and finalized our first hire shortly after that."
+                                </p>
+                                <p class="review_name">Ava V.</p>
+                                <p class="review_profession">Full-stack Developer</p>
+                            </div>
+                            <div class="reviews_image">
+                                <img src="./assets/Images/reviews_img_1.avif" alt="image">
+                            </div>
+                        </article>
+
+                        <article class="reviews_card swiper-slide">
+                            <div class="reviews_data">
+                                <p class="review_text">"We wish we knew about UpLoop at the beginning of our recruiting
+                                    process. We spent months looking for the right talent. Once we came across Upstack,
+                                    we had solid leads within a week and finalized our first hire shortly after that."
+                                </p>
+                                <p class="review_name">Alex D.</p>
+                                <p class="review_profession">Founder</p>
+                            </div>
+                            <div class="reviews_image">
+                                <img src="./assets/Images/reviews_img_2.avif" alt="image">
+                            </div>
+                        </article>
+
+                        <article class="reviews_card swiper-slide">
+                            <div class="reviews_data">
+                                <p class="review_text">"We wish we knew about UpLoop at the beginning of our recruiting
+                                    process. We spent months looking for the right talent. Once we came across Upstack,
+                                    we had solid leads within a week and finalized our first hire shortly after that."
+                                </p>
+                                <p class="review_name">Maya D.</p>
+                                <p class="review_profession">Tech Lead</p>
+                            </div>
+                            <div class="reviews_image">
+                                <img src="./assets/Images/reviews_img_3.avif" alt="image">
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-button-prev"><i class="ri-arrow-left-long-line"></i>Pervious</div>
+                    <div class="swiper-button-next">Next<i class="ri-arrow-right-long-fill"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== FAQ SECTION ========================== -->
+        <section class="faq_section">
+            <div
+                class="faq_container container grid justify-center gap-y-6 sm:grid-cols-[450px] md:grid-cols-[500px] lg:grid-cols-1">
+                <h1 class="section_title text-4xl lg:text-5xl font-semibold mb-10">Frequently Asked <br> Questions</h1>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">How much does it cost to hire a remote developer, and what is the cost
+                            structure?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">How does UpStack determine the "Top 1% of talent"?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">What specific technologies or frameworks do your developers specialize
+                            in?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">How long does it take to hire a remote developer?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">How does UpStack determine the "Top 1% of talent"?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer  hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">What specific technologies or frameworks do your developers specialize
+                            in?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">Do I have to manage the remote developers directly?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+                <article class="accordian">
+                    <div class="question">
+                        <p class="question_text">What happens if I'm not satisfied with a developer?</p>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="answer hidden">
+                        <p class="answer_text">Each hire you work with has a standard hourly rate averaging between
+                            $65-75 per hour. These rates are based on skills, knowledge, and experience. We work with
+                            clients to ensure you can determine a salary structure that works for each hire.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- =========================== FEATURED SECTION ========================== -->
+        <section id="featured" class="featured">
+            <div
+                class="featured_container container grid justify-center gap-y-15 sm:grid-cols-[450px] md:grid-cols-[500px] lg:grid-cols-1">
+                <h1 class="section_title text-4xl text-center font-semibold mb-4 lg:text-5xl">Trusted talent, faster
+                    results <br>
+                    Hire with ease</h1>
+
+                <div class="section_content grid gap-y-12 items-center lg:grid-cols-[2fr_3fr]">
+
+                    <div class="featured_data grid gap-y-6">
+                        <article class="accordian">
+                            <div class="question">
+                                <i class="ri-emotion-laugh-line"></i>
+                                <p class="question_text">Human-Centered Hiring</p>
+                            </div>
+                            <div class="answer hidden">
+                                <p class="answer_text">With tailored strategies, regular check-ins, and dedicated
+                                    support, we take the time to truly understand your goals and deliver the
+                                    personalized care the big platforms just can't match.</p>
+                            </div>
+                        </article>
+
+                        <article class="accordian">
+                            <div class="question">
+                                <i class="ri-money-dollar-circle-line"></i>
+                                <p class="question_text">Save Money, Hire Smarter</p>
+                            </div>
+                            <div class="answer hidden">
+                                <p class="answer_text">With tailored strategies, regular check-ins, and dedicated
+                                    support, we take the time to truly understand your goals and deliver the
+                                    personalized care the big platforms just can't match.</p>
+                            </div>
+                        </article>
+
+                        <article class="accordian">
+                            <div class="question">
+                                <i class="ri-vip-crown-line"></i>
+                                <p class="question_text">Talent That Sticks</p>
+                            </div>
+                            <div class="answer hidden">
+                                <p class="answer_text">With tailored strategies, regular check-ins, and dedicated
+                                    support, we take the time to truly understand your goals and deliver the
+                                    personalized care the big platforms just can't match.</p>
+                            </div>
+                        </article>
+
+                        <article class="accordian">
+                            <div class="question">
+                                <i class="ri-send-plane-fill"></i>
+                                <p class="question_text">Specialized Skills, Delivered</p>
+                            </div>
+                            <div class="answer hidden">
+                                <p class="answer_text">With tailored strategies, regular check-ins, and dedicated
+                                    support, we take the time to truly understand your goals and deliver the
+                                    personalized care the big platforms just can't match.</p>
+                            </div>
+                        </article>
+
+                        <article class="accordian">
+                            <div class="question">
+                                <i class="ri-star-half-s-fill"></i>
+                                <p class="question_text">Agility That Scales</p>
+                            </div>
+                            <div class="answer hidden">
+                                <p class="answer_text">With tailored strategies, regular check-ins, and dedicated
+                                    support, we take the time to truly understand your goals and deliver the
+                                    personalized care the big platforms just can't match.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div
+                        class="featured_image flex justify-center lg:justify-end lg:py-14 gap-6 lg:gap-12 h-[15.6rem] max-lg:-order-1">
+                        <img src="./assets/Images/corporate_img_1.avif" alt="image"
+                            class="featured_img w-4/10 h-44 lg:h-65 self-start object-cover object-center shadow-lg/50 rounded-3xl">
+                        <img src="./assets/Images/corporate_img_2.avif" alt="image"
+                            class="featured_img w-4/10 h-44 lg:h-65 self-end object-cover object-center shadow-lg/50 rounded-3xl">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================== CTA SECTION ========================== -->
+        <section class="cta_section bg-green-color-dark text-white">
+            <div
+                class="cta_container container grid gap-y-6 justify-center text-center sm:grid-cols-[450px] md:grid-cols-[500px] lg:grid-cols-1">
+                <h1 class="cat_title text-3xl lg:text-5xl text-white font-semibold">Ready to Build Smarter Teams?</h1>
+                <p class="cta_discription mb-10 max-w-[900px] justify-self-center">Transform your hiring approach with
+                    UpStack. Schedule a HirePath" strategy session today and see how our tailored solutions can optimize
+                    your process and unlock new potential for your business.</p>
+                <button
+                    class="cta_button bg-white text-green-color-dark text-xl font-semibold max-w-fit justify-self-center p-[1rem_2rem] rounded-[10rem] transition-all duration-400 hover:font-bold">Get
+                    Started</button>
+            </div>
+        </section>
     </main>
 
+    <footer id="footer" class="footer my-16">
+        <div class="fotter_container container grid gap-y-15 mb-10 lg:grid-cols-2 lg:justify-between">
+            <div class="footer_newsLater flex flex-col gap-6 md:w-[500px] lg:justify-between">
+
+                <div class="footer_form flex flex-col gap-6 mb-8">
+                    <h2 class="form_title text-xl font-semibold">Sign up for our newsletter</h2>
+                    <form action="" class="home_form w-full flex gap-x-2">
+                        <input type="email"
+                            class="home_input bg-container-color w-full rounded-[10rem] border border-gray-100 p-[.5rem_1rem] lg:text:lg"
+                            placeholder="Work email">
+                        <button type="submit" class="button text-nowrap lg:text-lg">Let's Connect</button>
+                    </form>
+                </div>
+
+                <a href="#home" class="logo text-xl text-shadow-green-color-dark font-bold italic lg:mb-8 lg:text-2xl"><i class="ri-at-fill"></i>Uploop</a>
+
+            </div>
+
+            <div class="footer_data grid gap-8 grid-cols-2 md:grid-cols-3">
+                <div>
+                    <ul class="footer_list grid gap-y-2">
+                        <li class="list_heading text-xl font-semibold">Employers</li>
+                        <li>How it works</li>
+                        <li>Success stories</li>
+                        <li>Sign up</li>
+                        <li>FAQ</li>
+                        <li>Login</li>
+                        <li>Rewards</li>
+                        <li>Blog</li>
+                        <li>Uploop</li>
+                        <li>©2025. All Rights Reserved</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="footer_list footer_list grid gap-y-2">
+                        <li class="list_heading text-xl font-semibold">Job Seekers</li>
+                        <li>Join the team</li>
+                        <li>Sign up</li>
+                        <li>FAQ</li>
+                        <li>Login</li>
+                        <li>Rewards</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="footer_list footer_list grid gap-y-2">
+                        <li class="list_heading text-xl font-semibold">Hire Developers</li>
+                        <li>Total alternatives</li>
+                        <li>Hire developers</li>
+                        <li>Hire front-end developers</li>
+                        <li>Hire full-stack developers</li>
+                        <li>Hire java developers</li>
+                        <li>Hire node.js developers</li>
+                        <li>Hire python developers</li>
+                        <li>Hire react.js developers</li>
+                        <li>Our developers</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <span class="footer_copy text-xs block text-center">&#169; All Rights Reserved by SIDD</span>
+    </footer>
+
+    <!-- ======================= SCROLL UP BUTTON =================== -->
+
+    <a href="#home">
+        <i class="ri-arrow-up-long-line scrollUp text-2xl font-bold fixed bottom-[-110%] right-4 md:right-10 lg:right-12 z-100 bg-container-color p-3 rounded-2xl shadow-xl/50 transition-all duration-400 hover:-translate-y-3"></i>
+    </a>
+
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="./assets/JS/main.js"></script>

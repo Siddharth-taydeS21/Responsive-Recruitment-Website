@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
 @import "tailwindcss";
 
-@theme{
+@theme {
 
     /* ================== COLOR VARIABLES =================== */
-    --color-body-color:  white;
+    --color-body-color: white;
     --color-container-color: #fbf8f4;
     --color-text-color: #000000;
     --color-text-color-light: #737373;
@@ -20,11 +20,11 @@
     --font-body-font: "Poppins", sans-serif;
 
     /* ================== BREAKPIONT =================== */
-    
+
 
 }
 
-@layer base{
+@layer base {
     * {
         @apply box-border p-0 m-0;
     }
@@ -33,7 +33,7 @@
         @apply scroll-smooth;
     }
 
-    body{
+    body {
         @apply font-body-font;
     }
 
@@ -49,7 +49,7 @@
     }
 
     header {
-        @apply w-full px-5 lg:px-8 h-14 lg:h-22;
+        @apply w-full px-4 h-14 lg:h-22;
     }
 
     ul {
@@ -67,18 +67,19 @@
 }
 
 @layer utilities {
+
     /* ================ SMALL REUSABLE CLASSES ================== */
     .container {
         @apply mx-auto p-4 max-w-7xl;
     }
 
-    .button{
+    .button {
         @apply bg-green-color-dark p-[.5rem_2rem] rounded-[10rem] text-body-color! text-sm transition-colors duration-400 hover:bg-green-color-dark-alt;
     }
 
     /* ================ NAV BAR REUSABLE CLASSES ================== */
 
-    .nav_link{
+    .nav_link {
         @apply text-text-color font-semibold transition-colors duration-400 hover:text-text-color-light;
     }
 
@@ -88,35 +89,189 @@
 
     /* ================ ABOUT SECTION REUSABLE CLASSES ================== */
 
-    .about_profile{
+    .about_profile {
         @apply size-[50px] rounded-full overflow-hidden border border-text-color-light absolute;
     }
 
-    .about_profile img{
+    .about_profile img {
         @apply h-full w-full object-cover object-center;
     }
 
-    .about_profile:nth-child(2){
-        @apply size-[65px]; 
+    .about_profile:nth-child(2) {
+        @apply size-[65px];
     }
 
-    .about_profile:nth-child(1){
-        @apply  right-[calc(50%+1.4rem)];
+    .about_profile:nth-child(1) {
+        @apply right-[calc(50%+1.4rem)];
     }
 
-    .about_profile:nth-child(3){
-        @apply  left-[calc(50%+1.4rem)];
+    .about_profile:nth-child(3) {
+        @apply left-[calc(50%+1.4rem)];
     }
 
-    .stats_card{
+    .stats_card {
         @apply size-[230px] rounded-3xl p-6 flex flex-col justify-between;
     }
 
-    .stats_title{
+    .stats_title {
         @apply text-4xl font-semibold;
     }
 
-    .stats_subtitle{
+    .stats_subtitle {
         @apply text-sm;
     }
+
+    /* ================ PLATFORM SECTION REUSABLE CLASSES ================== */
+    .platform_card {
+        @apply bg-body-color shadow-xl p-5 rounded-xl grid gap-y-4;
+    }
+
+    .platfrom_card_badge {
+        @apply text-2xl font-semibold w-fit px-2 py-1 rounded-xl;
+    }
+
+    .platfrom_card_title {
+        @apply text-xl font-semibold;
+    }
+
+    /* ================ REVIEWS SECTION REUSABLE CLASSES ================== */
+    .reviews_card {
+        @apply grid gap-y-12 mb-6 lg:mb-12;
+    }
+    
+    .reviews_data {
+        @apply text-center lg:text-start;
+    }
+
+    .review_text {
+        @apply mb-4 lg:text-lg lg:mb-12;
+    }
+
+    .review_name,
+    .review_text {
+        @apply font-semibold;
+    }
+
+    .review_profession {
+        @apply text-text-color-light text-sm mb-8;
+    }
+
+    .reviews_image {
+        @apply size-[320px] rounded-3xl overflow-hidden mb-20;
+    }
+
+    .reviews_image img {
+        @apply w-full h-full object-cover object-center;
+    }
+    
+    /* ================ FAQ SECTION REUSABLE CLASSES ================== */
+    .accordian{
+        @apply bg-container-color p-5 rounded-3xl grid gap-y-6 leading-[1.3rem] transition-colors duration-400;
+    }
+
+    .accordian .question{
+        @apply flex gap-x-6 justify-between items-center;
+    }
+    
+    .question{
+        @apply font-semibold;
+    }
+
+    .question i{
+        @apply rotate-45 text-2xl transition-transform duration-400;
+    }
+    
+    .answer{
+        @apply transition-[max-height,discrete] duration-400;
+    }
+    
+    /* ================ FEATURED SECTION REUSABLE CLASSES ================== */
+    
+    .featured_data .question i{
+        @apply rotate-0 text-3xl font-normal;
+    }
+    
+    .featured_data .question{
+        @apply justify-start;
+    }
+
+    /* ================ FOOTER SECTION REUSABLE CLASSES ================== */
+    .footer_list li:not(:first-child){
+        @apply text-text-color-light transition-colors duration-400 hover:text-text-color cursor-pointer;
+    } 
+
+}
+
+/* ================ VANILLA CSS FOR SWIPER CLASSES ================== */
+
+.swiper-wrapper {
+    max-width: 320px;
+}
+
+.reviews_swiper .swiper-pagination {
+    bottom: 3rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 35px;
+    height: 5px;
+    border-radius: 15px;
+    background-color: black;
+    transition: all .4s;
+}
+
+.reviews_swiper .swiper-navigation-icon {
+    display: none;
+}
+
+.reviews_swiper .swiper-button-prev,
+.reviews_swiper .swiper-button-next {
+    top: calc(100% - 1.5rem);
+    width: fit-content;
+    display: flex;
+    gap: .5rem;
+    color: black;
+}
+
+
+@media (width > 640px) {
+    .swiper-wrapper {
+        max-width: 400px;
+    }
+
+    .reviews_image {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (width > 768px) {
+    .swiper-wrapper {
+        max-width: 500px;
+    }
+
+    .reviews_image {
+        height: 500px;
+        width: 500px;
+    }
+}
+
+@media (width >=1024px) {
+    .reviews_swiper .reviews_card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-wrapper {
+        max-width: calc(1024px - 2rem);
+    }
+
+    .reviews_image {
+        height: 400px;
+        width: 450px;
+        justify-self: end;
+    }
+
 }
